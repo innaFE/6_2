@@ -1,0 +1,60 @@
+table {
+    font-style: 14px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    margin-top: 40px;
+    margin-left: 30px;
+    padding: 10px 16px;
+    vertical-align: middle;
+}
+
+td:nth-child(6n+1) {
+    color: #e7234e;
+}
+
+td {
+    border-top: 1px solid #ddd;
+}
+
+.plus{
+    height: 33px;
+    width: 33px;
+    color: white;
+    font-size: 16px;
+    background-color: #e7242a;
+    font-weight: bold;
+    box-shadow: none;
+    border: 1px solid #e7242a;
+    margin-left: 5px;
+    box-sizing: border-box;
+}
+.minus {
+    height: 33px;
+    width: 33px;
+    color: white;
+    font-size: 16px;
+    background-color: #e7242a;
+    font-weight: bold;
+    box-shadow: none;
+    border: 1px solid #e7242a;
+    margin-left: 5px;
+    box-sizing: border-box;
+}
+
+.delet {
+    height: 33px;
+    width: 70px;
+    color: white;
+    background-color: #dc4e45;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: none;
+    font-size: 12px;
+    border: 1px solid #dc4e45;
+    margin-left: 5px;
+    box-sizing: border-box;
+}
